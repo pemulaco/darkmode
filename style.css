@@ -1,0 +1,39 @@
+* {
+    transition: all 0.5s ease-in-out;
+}
+body {
+    width: 80%;
+    max-width: 400px;
+    height: 500vh;
+    border-radius: 30px;
+    margin: 25vh auto;
+    background-color: #444;
+    text-align: center;
+    overflow: hidden;
+}
+
+h4 {
+    font-family: Courier new;
+    font-size: 26px;
+    color: #3fa;
+}
+#active {
+    font-size: 50px;
+    margin-top: 30%;
+    color: #3fa;
+}
+#unactive {
+    font-size: 50px;
+    margin-top: 30%;
+    color: steelblue;
+    display: none;
+}
+p {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: monospace;
+    letter-spacing: 2px;
+    color: yellowgreen;
+    text-align: center;
+    margin-top:-10vh;
+}
